@@ -1,0 +1,7 @@
+@import "../_mixins/font-face";
+
+// font-family: 'Lato-Regular', sans-serif
+@include font('Lato-Regular', normal, 400, '/fonts/latoRegular/Lato-Regular.woff2');
+
+// font-family: 'Lato-Bold', sans-serif
+@include font('Lato-Bold', normal, 400, '/fonts/latoBold/Lato-Bold.woff2');
